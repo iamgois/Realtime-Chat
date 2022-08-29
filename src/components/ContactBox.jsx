@@ -1,12 +1,13 @@
 import "../App.css"
 
-export function ContactBox(){
-    return(
+export function ContactBox() {
+    return (
         <>
-            <div className="contact-box">
-                <p className="username">Thiago Gois</p>
-                <p className="message-preview">Olá, isto é um teste rodando em React Js.</p>
-            </div>
+                <div className="contact-box">
+                    <p className="username">Username</p>
+                    <p className="preview">Preview Message</p>
+                </div>
+            
         </>
     )
 }

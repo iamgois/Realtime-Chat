@@ -1,13 +1,11 @@
 import './App.css'
-import { Header } from './components/Header'
-import { Navbar } from './components/Navbar'
+import { Chats } from './components/Chats'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Header />
+      <Chats />
     </>
   )
 }
